@@ -1,0 +1,50 @@
+@charset "UTF-8";
+form{
+	background-color: #cabbb9;
+	color: #fff;
+}
+h1{
+	text-align: center;
+}
+hr{
+	background-color: #a9a9a9;
+	height: 10px;
+	margin: 10px;
+}
+#sinBorde{
+	padding: 50px;
+	border: 0px solid;
+	line-height : 75px;
+}
+.camposAmarillos{
+	background-color: #daa520;
+	border: 0px solid;
+	padding: 20px;
+	border-radius: 5px;
+	margin-left: 30px;
+	width: 30%;
+}
+h2{
+	color: #2f4f4f;
+	text-align: center;
+}
+fieldset{
+	padding: 30px;
+	margin: 30px;
+	font-size: x-large;
+}
+legend{
+	color: #556b33;
+}
+.campos{
+	margin-left: 30px;
+}
+#centrado{
+	text-align: center;
+}
+button{
+	font-size: x-large;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}

@@ -1,0 +1,55 @@
+body{
+	width: 850px;
+	margin: 0 auto;
+}
+header{
+	background-color: #bab6b5;
+	padding: 5px;
+	margin-top: 50px;
+}
+header > span{
+	font-size: 12px;
+}
+h1{
+	text-align: center;
+	color: #4a7178;
+	text-transform: uppercase;
+}
+#pop{
+	width: 850px;
+	background-color: #f9f1cc;
+	margin: 0 auto;
+}
+#folk{
+	width: 850px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+#rock{
+	width: 850px;
+	background-color: #f9f1cc;
+	margin: 0 auto;
+}
+#titulos{
+	text-align: center;
+	color: #a7d4d7;
+}
+#titulosPop{
+	background-color: #333132;
+	color: #fff;
+}
+.musicos{
+	color: #75983a;
+}
+.azul{
+	color: #54848c;
+}
+.titulos{
+	color: #64354f;
+}
+@media only screen and (min-width: 600px) {
+	#contenedor{width: 80%;}
+}
+@media only screen and (min-width: 768px) {
+	#contenedor{width: 80%;}
+}

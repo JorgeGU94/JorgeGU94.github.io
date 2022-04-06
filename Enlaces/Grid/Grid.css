@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  background-color: #658197;
+  padding: 10px;
+}
+section {
+  background-color: #2196F3;
+}
+a:hover {
+  background-color: blue;
+  color: white;
+}
+a {
+  padding: 15px;
+}
+body {
+    background-color: rgb(126, 126, 126);
+}
+header {
+  background-color: rgb(0, 255, 149);
+  padding: 30px;
+  margin: 15px;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+nav {
+  background-color: lightgrey;
+  text-align: center;
+  color: blanchedalmond;
+  padding: 20px;  
+}
+

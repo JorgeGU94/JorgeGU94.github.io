@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title title="Título">Formulario</title>
+    <link rel="stylesheet" href="Formulario.css" />
+  </head>
+    <body>
+        <form>
+            <h1>Formulario de Matriculación</h1>
+            <hr/>
+            <div id="sinBorde">
+                <label for="nombre">Nombre
+                    <input type="text" id="nombre" name="datos" class="camposAmarillos"></label><br/>
+                <label for="apellidos">Apellidos
+                    <input type="text" id="apellidos" name="datos" class="camposAmarillos"></label><br/>
+                <label for="pass">Contraseña
+                    <input type="text" id="pass" name="datos" class="camposAmarillos"></label><br/>
+            </div>
+            <h2>Etapa educativa</h2>
+            <fieldset>
+                <legend>Seleccione una sola opción</legend>
+                    <label for="primaria">
+                        <input type="radio" id="primaria" name="estudios" value="Primaria" ><span class="campos">Primaria (12€)</span></label><br/>
+                    <label for="secundaria">
+                        <input type="radio" id="secundaria" name="estudios" value="Secundaria"><span class="campos">Secundaria (30€)</span></label><br/>
+                    <label for="FPGM">                
+                        <input type="radio" id="FPGM" name="estudios" value="FormaciónProfesionalGradoMedio"><span class="campos">Formación Profesional de grado medio (30€)</span></label><br/>
+                    <label for="Bachillerato">               
+                        <input type="radio" id="Bachillerato" name="estudios" value="Bachillerato"><span class="campos">Bachillerato (50€)</span></label><br/>
+                    <label for="FPGS">                
+                        <input type="radio" id="FPGS" name="estudios" value="FormaciónProfesionalGradoSuperior"><span class="campos">Formación Profesional de grado superior (40€)</span></label><br/>
+                    <label for="EUGM">
+                        <input type="radio" id="EUGM" name="estudios" value="EstudiosUniversitariosGradoMedio"><span class="campos">Estudios Universitarios de grado medio (700€)</span></label><br/>
+                    <label for="EUGS">
+                        <input type="radio" id="EUGS" name="estudios" value="EstudiosUniversitariosGradoSuperior"><span class="campos">Estudios Universitarios de grado superior (900€)</span></label>   
+            </fieldset>
+            <h2>Otras opciones</h2>
+            <fieldset>
+                <legend>Seleccione las opciones pertinentes</legend>
+                    <label for="familia">
+                        <input type="checkbox" id="familia" name="opciones" value="FamiliaNumerosa"><span class="campos">Familia Numerosa (20%)</span></label><br/>
+                    <label for="minusvalia">
+                        <input type="checkbox" id="minusvalia" name="opciones" value="Minusvalía"><span class="campos">Minusvalía (50%)</span></label><br/>
+                    <label for="edad">
+                        <input type="checkbox" id="edad" name="opciones" value="Mayor30Años"><span class="campos">Mayor de 30 años (10%)</span></label>
+            </fieldset>
+            <div id="centrado">
+                <button type="submit">Calcular</button>
+            </div>
+        </form>
+    </body>
+</html>

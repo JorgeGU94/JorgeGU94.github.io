@@ -1,0 +1,71 @@
+header {
+    background-color: lightgrey;
+    padding: 30px;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: rgb(65, 122, 122);
+}
+
+nav {
+    background-color: lightgrey;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 20px;  
+}
+
+a:hover {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: rgb(65, 122, 122);
+}
+
+section {
+    background-color: lightgrey; 
+    margin: 15px;
+    padding: 20px;
+}
+
+article {
+    text-align: center;
+    background-color: rgb(65, 122, 122);
+    padding: 30px;
+    margin: 15px;
+    outline-style: dotted;
+    outline-color: rgb(93, 255, 44);
+    border-style: solid;
+    border-color: mediumvioletred;
+}
+
+h2 {
+    color: rgb(56, 13, 105);
+    background-color:rgb(141, 132, 124) ;
+}
+
+aside {
+    background-color: rgb(146, 124, 62);
+}
+
+aside h2 {
+    background-color: rgb(146, 124, 62);
+    color:rgb(7, 7, 7);
+}
+
+aside p {
+    font-size: larger ;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(56, 13, 105);
+}
+
+footer a {
+    background-color: rgb(56, 13, 105);
+}

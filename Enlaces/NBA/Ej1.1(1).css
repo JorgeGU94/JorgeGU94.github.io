@@ -1,0 +1,38 @@
+body {
+  background-image: url("nba4.gif");
+}
+
+h1 {
+  border-style: solid;
+  border-color: rgb(236, 105, 18);
+  width: 15%;
+}
+
+h1,
+h2 {
+  text-align: left;
+  color: rgb(236, 105, 18);
+}
+
+h2 {
+  border: 2px dotted rgb(236, 105, 18);
+  border-radius: 5px;
+  width: 20%;
+}
+
+#aspirantes {
+  border: 2px dotted rgb(236, 105, 18);
+  border-radius: 5px;
+  width: 15%;
+}
+
+#españoles {
+  border: 2px dotted rgb(236, 105, 18);
+  border-radius: 5px;
+  width: 15%;
+}
+
+p {
+  text-align: left;
+  color: rgb(248, 239, 239);
+}
